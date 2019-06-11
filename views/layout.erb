@@ -14,4 +14,39 @@ body {font-family: "Open Sans"}
 </style>
 
   Hello, world. Let's try this.
+
+  
+  <body class="w3-light-grey">
+
+<!-- Navigation bar with social media icons -->
+<div class="w3-bar w3-black w3-hide-small">
+  <a href="https://www.facebook.com/rusty.story.9?__tn__=%2CdCH-R-R&eid=ARDN2NSpmyZbYK5Uoa0ph8xPSAheTcLiQKWQ1DD3mlCNhmVsKBfM1M2jAojWzVGReqsInIDMiiiUF1Rd&hc_ref=ARRvBsLRUYr1RdVaklUSI8XQa59UfOkpRtA3Zg_-7OZjLxavg2R1i3T6QXbpscpYTYw&fref=nf" class="w3-bar-item w3-button"><i class="fa fa-facebook-official"></i></a>
+  <a href="https://www.instagram.com/rusty_story/" class="w3-bar-item w3-button"><i class="fa fa-instagram"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-right"><i class="fa fa-search"></i></a>
+</div>
+  
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1600px">
+
+  <!-- Header -->
+  <header class="w3-container w3-center w3-padding-48 w3-white">
+    <h1 class="w3-xxxlarge"><b>BULLDOG PUPPIES</b></h1>
+    <h6>Welcome to the first litter of <span class="w3-tag">Millie</span></h6>
+  </header>
+
+  <!-- Image header -->
+  <header class="w3-display-container w3-wide" id="home">
+      <%= image_tag("allpuppies.jpg", :alt => "rss feed", :width =>"1200", :height =>"800") %>
+      
+    
+    <div class="w3-display-left w3-padding-large">
+      <h1 class="w3-text-white">Puppies</h1>
+      <h1 class="w3-jumbo w3-text-white w3-hide-small"><b>EVERYWHERE</b></h1>
+      <h6><button class="w3-button w3-white w3-padding-large w3-large w3-opacity w3-hover-opacity-off" onclick="document.getElementById('subscribe').style.display='block'">CONTACT OWNER</button></h6>
+    </div>
+  </header>
+    </div>
+  </body>
+
 </html>
